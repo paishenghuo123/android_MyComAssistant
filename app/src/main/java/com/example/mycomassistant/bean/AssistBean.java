@@ -5,8 +5,11 @@ import java.io.Serializable;
 /**
  * @author benjaminwan
  * 用于保存界面数据
+ *
+ * 123
  */
 public class AssistBean implements Serializable {
+
     private static final long serialVersionUID = -5620661009186692227L;
     private boolean isTxt = true;
     private String SendTxtA = "COMA", SendTxtB = "COMB", SendTxtC = "COMC", SendTxtD = "COMD";
